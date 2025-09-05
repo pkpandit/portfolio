@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row align-items-center content">
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h2>Crafting Digital Experiences with Passion</h2>
+            <h2>Crafting Digital Experiences</h2>
             <p className="lead">
               Transforming ideas into elegant solutions through creative design
               and innovative development

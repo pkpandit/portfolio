@@ -10,7 +10,7 @@ const PageTitle = ({ pageTitle, titleDescr }) => {
             d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth={2}
           ></path>
         </svg>
       </div>

@@ -47,42 +47,42 @@ const About = () => {
                   <div className="col-6">
                     <div className="info-item">
                       <span className="label">Name</span>
-                      <span className="value">Eliot Johnson</span>
+                      <span className="value">Pramod Upadhyay</span>
                     </div>
                   </div>
 
                   <div className="col-6">
                     <div className="info-item">
                       <span className="label">Phone</span>
-                      <span className="value">+123 456 7890</span>
+                      <span className="value">+91 99999 69262</span>
                     </div>
                   </div>
 
-                  <div className="col-6">
+                  {/*  <div className="col-6">
                     <div className="info-item">
                       <span className="label">Age</span>
                       <span className="value">26 Years</span>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="col-6">
                     <div className="info-item">
                       <span className="label">Email</span>
-                      <span className="value">email@example.com</span>
+                      <span className="value">pkpandit@gmail.com</span>
                     </div>
                   </div>
 
-                  <div className="col-6">
+                  {/*   <div className="col-6">
                     <div className="info-item">
                       <span className="label">Occupation</span>
-                      <span className="value">Lorem Engineer</span>
+                      <span className="value"></span>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="col-6">
                     <div className="info-item">
                       <span className="label">Nationality</span>
-                      <span className="value">Ipsum</span>
+                      <span className="value">India</span>
                     </div>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ const About = () => {
                   />
                 </div>
                 <div className="signature-info">
-                  <h4>Eliot Johnson</h4>
+                  <h4>Pramod Upadhyay</h4>
                   <p>Adipiscing Elit, Lorem Ipsum</p>
                 </div>
               </div>

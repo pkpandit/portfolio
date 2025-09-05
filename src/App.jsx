@@ -1,4 +1,5 @@
 import "./App.css";
+
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
@@ -15,11 +16,11 @@ function App() {
   return (
     <>
       <Header />
-      <main class="main">
+      <main className="main">
         <Hero />
         <About />
         <Skills />
-        <Resume />
+        {/* <Resume /> */}
         <Portfolio />
         <Testimonials />
         <Services />
