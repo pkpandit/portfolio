@@ -1,0 +1,10 @@
+{
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 18,
+  "css.lint.unknownAtRules": "ignore"
+}
