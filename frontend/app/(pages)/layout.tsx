@@ -17,23 +17,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "portfolio",
+  title: "Pramod Portfolio",
   description: "portfolio",
-  openGraph: {
-    title: "portfolio",
-    description: "portfolio",
-    siteName: "portfolio",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "portfolio",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
 };
 
 export default function RootLayout({
@@ -71,9 +56,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-background text-foreground relative transition-colors duration-300">
         <ThemeProvider>
           <Header />
-          <main className="flex-grow pt-14 md:pt-20">
-            {children}
-          </main>
+          <main className="flex-grow pt-14 md:pt-20">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
